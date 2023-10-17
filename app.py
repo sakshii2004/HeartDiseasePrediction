@@ -19,8 +19,8 @@ def main():
   
   
   st.write("Please enter the following features: ")
-  Age = st.number_input('Age', placeholder='Enter the age', min_value=0, max_value=100, step=1, value=45)
-  Weight = st.number_input('Weight (Kg)', value=75, placeholder='Enter the weight', min_value=30, max_value=250)
+  Age = st.number_input('Age', min_value=0, max_value=100, step=1, value=45)
+  Weight = st.number_input('Weight (Kg)', value=75, min_value=30, max_value=250)
   level_mapping = {'Low': 1, 'Medium': 2, 'High': 3}
   Glucose = st.radio('Glucose Level', [1,2,3])
   Cholestrol = st.radio('Cholestrol Level', [1,2,3])
