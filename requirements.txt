@@ -5,5 +5,5 @@ altair
 vega-datasets
 Pillow
 pickle5
-scikit-learn==1.2.2
+scikit-learn
 scipy
